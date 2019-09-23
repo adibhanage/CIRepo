@@ -1,0 +1,1 @@
+select "This is first sql triggered job " || sysdate from dual;

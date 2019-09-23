@@ -1,1 +1,1 @@
-select "This is first sql triggered job " || sysdate from dual;
+select 'This is first sql triggered job ' || sysdate  as Message from dual;
